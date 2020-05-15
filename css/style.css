@@ -1,0 +1,315 @@
+.navbar
+{
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+    padding-top:20px;
+}
+section
+{
+	padding-top: 4rem;
+}
+.bs-docs-featurette {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    }
+.bs-docs-featurettee
+ {
+padding-top: 30px;
+padding-bottom: 30px;
+    
+    }
+.visible-xs
+ {
+  width:60%;
+  border:solid 1px #00cc00;
+}
+#topbannertest
+{
+  background-image: url("../Images/banner1.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+
+}
+#topbannermain
+{
+  background-image: url("../Images/banner6.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+
+}
+#topbannera
+{
+  background-image: url("../Images/banner4.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+
+}
+#templedetails
+{
+  background-image: url("../Images/banner5.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+}
+.natives
+{
+  padding-top: 100px;
+}
+.wow{
+  animation-duration: 1.5s;
+  animation-delay: 1.5s;
+  visibility: hidden;
+}
+.pdfbackground
+{
+  background-color: #004c9e;
+background-image: url("https://www.transparenttextures.com/patterns/gray-floral.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.pdfback
+{
+  background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+}
+
+#topbanner
+{
+	background-image: url("../Images/banner2.jpg");
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;
+
+}
+h2
+{
+font-family: "Playfair Display", serif;
+  font-weight: 900; 
+  font-size: 42px;
+}
+h4
+{
+  padding-top:20px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600; 
+
+}
+.red
+{
+	background-color:black;
+    transition:.8s;
+}
+.text-white
+{
+    font-weight:500;
+    font-size:20px;
+}
+.navbar-brand
+{
+   font-weight:700;
+    font-size:25px;
+}
+.nav-item a:hover
+{
+    color: #ff304d;
+}
+.dropdown-menu a:hover
+{
+     color: #ff304d;
+}
+/*Footer*/
+.footer {
+  background-color: #414141;
+  width: 100%;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 50px;
+  margin-top: 50px;
+}
+.footer-right a
+{
+    padding: 10px 0;
+	color: #fff;
+	display: block;
+	transition: color 0.5s ease-in-out;
+   text-decoration:none;
+}
+
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/* footer left*/
+
+.footer .footer-left {
+  width: 33%;
+  padding-right: 15px;
+}
+
+.footer .about {
+  line-height: 20px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer .about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer .icons {
+  margin-top: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+
+/* footer center*/
+
+.footer .footer-center {
+  width: 30%;
+}
+
+.footer .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .footer-center p a {
+  color: #0099ff;
+  text-decoration: none;
+}
+
+.wrapper {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    word-wrap: break-word;
+}
+.row3 {
+    color: #797979;
+    background-color: #FFFFFF;
+}
+.center {
+    text-align: center;
+}
+
+/* footer right*/
+
+.footer .footer-right {
+  width: 35%;
+}
+
+.footer h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer h2 span {
+  color: #0099ff;
+}
+
+.footer .menu {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer .menu a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .menu a:hover {
+  color: #ff304d;
+}
+
+.footer .name {
+  color: #0099ff;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+.icons a:hover
+{
+    color:#ff304d;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 14px;
+  }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
+ 
